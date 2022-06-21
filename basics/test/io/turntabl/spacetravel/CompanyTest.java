@@ -5,8 +5,6 @@ import org.junit.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 public class CompanyTest {
 
     Company spaceT = new Company("SpaceT", List.of(

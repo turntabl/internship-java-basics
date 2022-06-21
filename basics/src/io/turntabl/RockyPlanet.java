@@ -10,4 +10,9 @@ public class RockyPlanet extends Planet {
     public boolean canLand() {
         return true;
     }
+
+    @Override
+    public double getWeight() {
+        return 0;
+    }
 }

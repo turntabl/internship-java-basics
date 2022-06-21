@@ -7,7 +7,20 @@ public class Moon extends CelestialBody {
     }
 
     @Override
+    public double getWeight() {
+        return 7.3E22;
+    }
+
+    @Override
     public boolean supportsLife() {
         return false;
+    }
+
+    public void orbitPlanet() {
+
+    }
+
+    public void reflectLight() {
+
     }
 }

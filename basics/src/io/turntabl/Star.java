@@ -7,6 +7,11 @@ public class Star extends CelestialBody {
     }
 
     @Override
+    public double getWeight() {
+        return 0;
+    }
+
+    @Override
     public boolean supportsLife() {
         return false;
     }
